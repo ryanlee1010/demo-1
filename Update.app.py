@@ -1,4 +1,4 @@
-import streamlit as st
+
 import streamlit as st
 import time
 
@@ -6,7 +6,8 @@ import time
 st.title("Business Dashboard with Streamlit Layouts")
 
 # Objective
-st.write("Objective: To demonstrate the usage of columns, tabs, and dynamic containers in a business dashboard.")
+msg="## Objective: To demonstrate the usage of columns, tabs, and dynamic containers in a business dashboard."
+st.write(msg)
 
 # Columns Layout
 col1, col2, col3 = st.columns(3)
